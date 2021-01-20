@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  background-color: hsl(185, 75%, 39%);
+}
+.profilecard {
+  height: 380px;
+  width: 350px;
+  position: relative;
+  margin: 10% auto;
+  text-align: center;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 hsl(227, 10%, 46%);
+}
+.followers {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  margin: 0 20px;
+}
+.likes {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  margin: 0 20px;
+}
+.Photos {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  margin: 0 20px;
+}
+.poza {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thick;
+  border-color: #fafafa;
+  position: relative;
+  bottom: 55px;
+}
+.profilecard span {
+  font-weight: 400;
+  margin: 0;
+  padding: 0 5px;
+  color: hsl(227, 10%, 46%);
+}
+.profilecard h2 {
+  font-weight: normal;
+  margin: 0;
+  padding: 10px;
+  bottom: 55px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 14px;
+  color: hsl(227, 10%, 46%);
+}
+.profilecard h1 {
+  margin: 0;
+  padding: 0;
+  bottom: 55px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.profilecard svg {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.profilecard p {
+  bottom: 50px;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: hsl(227, 10%, 46%);
+}
+.profilecard hr {
+  position: relative;
+  bottom: 30px;
+  border: 0;
+  height: 1px;
+  background-color: hsl(0, 0%, 88%);
+}
+.profilecard section {
+  position: relative;
+  bottom: 35px;
+}
+.cercsus {
+  position: absolute;
+  bottom: 550px;
+  right: 1350px;
+}
+.cercjos {
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
